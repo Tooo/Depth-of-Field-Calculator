@@ -1,3 +1,5 @@
+package camera.ui;
+
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
