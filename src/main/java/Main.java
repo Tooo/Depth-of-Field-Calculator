@@ -1,7 +1,7 @@
 import camera.ui.CameraTextUI;
 
 /**
- * Launch application
+ * Launch application test
  */
 public class Main {
     public static void main(String args[]) {
