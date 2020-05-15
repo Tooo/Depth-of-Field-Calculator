@@ -30,6 +30,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
@@ -47,17 +54,24 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TODO_SCOPE" value="All Places" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Documents\IntelliJ\cmpt276a1" />
+    </key>
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="cmpt276a1" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -114,7 +128,35 @@
       <option name="project" value="LOCAL" />
       <updated>1589506161504</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Initial">
+      <created>1589506381247</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1589506381247</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Structure Folders and Model classes">
+      <created>1589510640897</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1589510640897</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Structure Folders and Model classes">
+      <created>1589510653807</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1589510653807</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Structure Folders and Model classes">
+      <created>1589510775560</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1589510775560</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -127,18 +169,72 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial" />
+    <MESSAGE value="Structure Folders and Model classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Structure Folders and Model classes" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="153" key="FileChooserDialogImpl" timestamp="1589506123372">
+    <state x="223" y="66" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589508202213">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589506123372" />
+    <state x="223" y="66" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589508202213" />
+    <state x="548" y="117" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1589507289518">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="548" y="117" key="#com.intellij.ide.macro.MacrosDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589507289518" />
+    <state x="500" y="188" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1589506539668">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="500" y="188" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589506539668" />
+    <state x="498" y="202" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1589508170668">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="202" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589508170668" />
+    <state x="516" y="267" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1589507759204">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="516" y="267" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589507759204" />
+    <state x="549" y="153" key="FileChooserDialogImpl" timestamp="1589508058373">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589508058373" />
+    <state width="746" height="210" key="GridCell.Tab.0.bottom" timestamp="1589508155801">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589508155801" />
+    <state width="746" height="210" key="GridCell.Tab.0.center" timestamp="1589508155801">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="210" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589508155800" />
+    <state width="746" height="210" key="GridCell.Tab.0.left" timestamp="1589508155800">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="210" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589508155800" />
+    <state width="746" height="210" key="GridCell.Tab.0.right" timestamp="1589508155801">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="210" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589508155801" />
+    <state width="746" height="261" key="GridCell.Tab.1.bottom" timestamp="1589507616983">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589507616983" />
+    <state width="746" height="261" key="GridCell.Tab.1.center" timestamp="1589507616983">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="261" key="GridCell.Tab.1.center/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589507616983" />
+    <state width="746" height="261" key="GridCell.Tab.1.left" timestamp="1589507616983">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="261" key="GridCell.Tab.1.left/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589507616983" />
+    <state width="746" height="261" key="GridCell.Tab.1.right" timestamp="1589507616983">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="261" key="GridCell.Tab.1.right/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589507616983" />
     <state x="147" y="74" key="MergeDialog" timestamp="1589505820989">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -147,18 +243,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="657" y="280" width="221" height="282" key="MultipleFileMergeDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589506109903" />
-    <state x="277" y="57" key="SettingsEditor" timestamp="1589503909850">
+    <state x="277" y="0" key="SettingsEditor" timestamp="1589510413256">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="57" key="SettingsEditor/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589503909850" />
+    <state x="277" y="0" key="SettingsEditor/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589510413256" />
     <state x="526" y="116" key="VCS.ChangeListViewerDialog" timestamp="1589505993496">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="526" y="116" key="VCS.ChangeListViewerDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589505993496" />
-    <state x="361" y="145" width="1093" height="534" key="Vcs.Push.Dialog.v2" timestamp="1589506192889">
+    <state x="361" y="145" width="1093" height="534" key="Vcs.Push.Dialog.v2" timestamp="1589510674171">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" width="1093" height="534" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589506192889" />
+    <state x="361" y="145" width="1093" height="534" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589510674171" />
     <state x="569" y="200" key="git4idea.merge.GitMergeDialog" timestamp="1589504870611">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -175,5 +271,12 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="585" y="306" key="git4idea.ui.GitResetDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589506002523" />
+    <state x="237" y="32" key="new project wizard" timestamp="1589508068359">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="237" y="32" key="new project wizard/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589508068359" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/cmpt276a1$Main.ic" NAME="Main Coverage Results" MODIFIED="1589507657097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
