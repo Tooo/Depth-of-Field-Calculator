@@ -4,6 +4,7 @@ import camera.model.DOFCalculator;
 import camera.model.Lens;
 import camera.model.LensManager;
 
+import java.security.spec.RSAOtherPrimeInfo;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
@@ -40,18 +41,23 @@ public class CameraTextUI {
                 System.out.println("Error: Invalid lens index.\n");
             } else {
                 Lens len = manager.get(choice);
-                System.out.println("Aperture [the F number]: ");
+                System.out.print("Aperture [the F number]: ");
                 double aperture = in.nextDouble();
                 if (aperture < len.getMaxAperture()) {
-                    System.out.println("ERROR: This aperture is not possible with this lens");
+                    System.out.println("ERROR: This aperture is not possible with this lens\n");
                 } else {
-                    System.out.println("Distance to subject [m]: ");
-                    int distance = in.nextInt();
+                    System.out.print("Distance to subject [m]: ");
+                    double distance = in.nextDouble()*1000;
                     int focalLength = len.getFocalLength();
                     double hyperFocal = DOFCalculator.hyperFocalDist(focalLength, aperture, COC);
                     double nearFocal = DOFCalculator.nearFocalPoint(hyperFocal, distance, focalLength);
                     double farFocal = DOFCalculator.farFocalPoint(hyperFocal, distance, focalLength);
-                    int depthOfField = DOFCalculator.depthOfField(farFocal, nearFocal);
+                    double depthOfField = DOFCalculator.depthOfField(farFocal, nearFocal);
+                    System.out.println(" In focus: " + formatM(nearFocal/1000) +
+                            "m to " + formatM(farFocal/1000) +
+                            "m [DoF = " + formatM(depthOfField/1000) +
+                            "m]");
+                    System.out.println(" Hyperfocal point: " + formatM(hyperFocal/1000) +"m\n");
                 }
             }
 
@@ -67,6 +73,7 @@ public class CameraTextUI {
             count++;
         }
         System.out.println(" (-1 to exit)");
+        System.out.print(": ");
     }
 
     private String formatM(double distanceInM) {

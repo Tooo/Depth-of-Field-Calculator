@@ -12,26 +12,28 @@ public class DOFCalculator {
     }
 
     // (hyper focal * distance)/ (hyper focal + (distance - focal length))
-    public static double nearFocalPoint(double hyperFocal, int distance, int focalLength) {
+    public static double nearFocalPoint(double hyperFocal, double distance, double focalLength) {
         double top = hyperFocal*distance;
         double bottom = (hyperFocal +(distance-focalLength));
         return top/bottom;
     }
 
     //(hyper focal * distance)/ (hyper focal + (distance - focal length)
-    public static double farFocalPoint(double hyperFocal, int distance, int focalLength) {
-        double top = hyperFocal*distance;
-        double bottom = (hyperFocal - (distance - focalLength));
-        double farFocal = top/bottom;
-        if (farFocal > hyperFocal) {
+    public static double farFocalPoint(double hyperFocal, double distance, double focalLength) {
+        double farFocal;
+        if (distance > hyperFocal ) {
             farFocal = Double.POSITIVE_INFINITY;
+        } else {
+            double top = hyperFocal * distance;
+            double bottom = (hyperFocal - (distance - focalLength));
+            farFocal = top / bottom;
         }
         return farFocal;
     }
 
     // far focal - near focal
-    public static int depthOfField (double farFocal, double nearFocal) {
-        return (int)(farFocal-nearFocal);
+    public static double depthOfField (double farFocal, double nearFocal) {
+        return (farFocal-nearFocal);
     }
 
 }
