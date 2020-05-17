@@ -1,3 +1,4 @@
+import camera.model.LensManager;
 import camera.ui.CameraTextUI;
 
 /**

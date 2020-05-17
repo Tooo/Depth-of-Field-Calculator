@@ -1,5 +1,8 @@
 package camera.ui;
 
+import camera.model.Lens;
+import camera.model.LensManager;
+
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
@@ -19,29 +22,33 @@ public class CameraTextUI {
         this.manager = manager;
 
         // Populate lenses (Make, max aperture (smallest supported F number), focal length [mm]):
-        manager.add(new Lens("Canon", 4, 24));
+        manager.add(new Lens("Canon", 1.8, 50));
         manager.add(new Lens("Tamron", 2.8, 90));
         manager.add(new Lens("Sigma", 2.8, 200));
         manager.add(new Lens("Nikon", 4, 200));
     }
 
     public void show() {
-        // BEGIN SAMPLE USING SCREEN AND KEYBOARD:
-        // (remove this: it's just to show you how to access the screen and keyboard!)
-        System.out.println("Enter an integer: ");
-        System.out.print(": ");
-        int count = in.nextInt();
-
-        System.out.println("Enter an double: ");
-        System.out.print(": ");
-        double value = in.nextDouble();
-
-        System.out.println("Printing " + value + " out " + count + " times (with formatting)!");
-        for (int i = 0; i < count; i++) {
-            System.out.println(" --> " + formatM(value));
+        int count = 0;
+        boolean isDone = false;
+        while (!isDone) {
+            System.out.println("Lenses to pick from:");
+            for (Lens lens : manager) {
+                System.out.println(" " + count + ". " + lens);
+                count++;
+            }
+            System.out.println(" (-1 to exit)");
+            int choice = in.nextInt();
+            switch(choice) {
+                case 1:
+                    System.out.println("hihi");
+                case 2:
+                    System.out.println("byebye");
+                    isDone = true;
+                default:
+                    System.out.println("invalid");
+            }
         }
-
-        // END SAMPLE
     }
 
     private String formatM(double distanceInM) {
