@@ -1,5 +1,6 @@
 package camera.ui;
 
+import camera.model.DOFCalculator;
 import camera.model.Lens;
 import camera.model.LensManager;
 
@@ -29,26 +30,43 @@ public class CameraTextUI {
     }
 
     public void show() {
-        int count = 0;
         boolean isDone = false;
         while (!isDone) {
-            System.out.println("Lenses to pick from:");
-            for (Lens lens : manager) {
-                System.out.println(" " + count + ". " + lens);
-                count++;
-            }
-            System.out.println(" (-1 to exit)");
+            lensListPrint();
             int choice = in.nextInt();
-            switch(choice) {
-                case 1:
-                    System.out.println("hihi");
-                case 2:
-                    System.out.println("byebye");
-                    isDone = true;
-                default:
-                    System.out.println("invalid");
+            if (choice == -1) {
+                isDone = true;
+            } else if (choice > 3 || choice < -1) {
+                System.out.println("Error: Invalid lens index.\n");
+            } else {
+                Lens len = manager.get(choice);
+                System.out.println("Aperture [the F number]: ");
+                double aperture = in.nextDouble();
+                if (aperture < len.getMaxAperture()) {
+                    System.out.println("ERROR: This aperture is not possible with this lens");
+                } else {
+                    System.out.println("Distance to subject [m]: ");
+                    int distance = in.nextInt();
+                    int focalLength = len.getFocalLength();
+                    double hyperFocal = DOFCalculator.hyperFocalDist(focalLength, aperture, COC);
+                    double nearFocal = DOFCalculator.nearFocalPoint(hyperFocal, distance, focalLength);
+                    double farFocal = DOFCalculator.farFocalPoint(hyperFocal, distance, focalLength);
+                    int depthOfField = DOFCalculator.depthOfField(farFocal, nearFocal);
+                }
             }
+
         }
+    }
+
+    //Print Lens List
+    private void lensListPrint() {
+        System.out.println("Lenses to pick from:");
+        int count = 0;
+        for (Lens lens : manager) {
+            System.out.println(" " + count + ". " + lens);
+            count++;
+        }
+        System.out.println(" (-1 to exit)");
     }
 
     private String formatM(double distanceInM) {

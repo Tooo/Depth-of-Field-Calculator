@@ -5,21 +5,21 @@ import camera.ui.CameraTextUI;
 public class DOFCalculator {
 
     // (focal length)^2 / (aperture/circle of confusion)
-    private double hyperFocalDist(int focalLength, double aperture, double coc) {
+    public static double hyperFocalDist(int focalLength, double aperture, double coc) {
         double top = focalLength * focalLength;
         double bottom = aperture*coc;
         return top/bottom;
     }
 
     // (hyper focal * distance)/ (hyper focal + (distance - focal length))
-    private double nearFocalPoint(double hyperFocal, int distance, int focalLength) {
+    public static double nearFocalPoint(double hyperFocal, int distance, int focalLength) {
         double top = hyperFocal*distance;
         double bottom = (hyperFocal +(distance-focalLength));
         return top/bottom;
     }
 
     //(hyper focal * distance)/ (hyper focal + (distance - focal length)
-    private double farFocalPoint(double hyperFocal, int distance, int focalLength) {
+    public static double farFocalPoint(double hyperFocal, int distance, int focalLength) {
         double top = hyperFocal*distance;
         double bottom = (hyperFocal - (distance - focalLength));
         double farFocal = top/bottom;
@@ -30,10 +30,7 @@ public class DOFCalculator {
     }
 
     // far focal - near focal
-    public int depthOfField (double aperture, int distance, int focalLength, double coc) {
-        double hyperFocal = hyperFocalDist(focalLength, aperture, coc);
-        double nearFocal = nearFocalPoint(hyperFocal, distance, focalLength);
-        double farFocal = farFocalPoint(hyperFocal, distance, focalLength);
+    public static int depthOfField (double farFocal, double nearFocal) {
         return (int)(farFocal-nearFocal);
     }
 
