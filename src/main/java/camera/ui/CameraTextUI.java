@@ -19,7 +19,7 @@ public class CameraTextUI {
         this.manager = manager;
 
         // Populate lenses (Make, max aperture (smallest supported F number), focal length [mm]):
-        manager.add(new Lens("Canon", 1.8, 50));
+        manager.add(new Lens("Canon", 4, 24));
         manager.add(new Lens("Tamron", 2.8, 90));
         manager.add(new Lens("Sigma", 2.8, 200));
         manager.add(new Lens("Nikon", 4, 200));
