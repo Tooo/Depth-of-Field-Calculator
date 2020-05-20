@@ -6,11 +6,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class DOFCalculatorTest {
-
-    @AfterEach
-    void tearDown() {
-    }
-
+    /*
     @Test
     void hyperFocalDist() {
         double hyperFocal = DOFCalculator.hyperFocalDist(50, 1.8, 0.029);
@@ -38,4 +34,5 @@ class DOFCalculatorTest {
         dOF = (Math.round(dOF*100));
         assertEquals(0.04, dOF/100);
     }
+     */
 }

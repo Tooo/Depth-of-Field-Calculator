@@ -48,11 +48,10 @@ public class CameraTextUI {
                 } else {
                     System.out.print("Distance to subject [m]: ");
                     double distance = in.nextDouble()*1000;
-                    int focalLength = len.getFocalLength();
-                    double hyperFocal = DOFCalculator.hyperFocalDist(focalLength, aperture, COC);
-                    double nearFocal = DOFCalculator.nearFocalPoint(hyperFocal, distance, focalLength);
-                    double farFocal = DOFCalculator.farFocalPoint(hyperFocal, distance, focalLength);
-                    double depthOfField = DOFCalculator.depthOfField(farFocal, nearFocal);
+                    double hyperFocal = DOFCalculator.hyperFocalDist(len, aperture, COC);
+                    double nearFocal = DOFCalculator.nearFocalPoint(len, distance, aperture, COC);
+                    double farFocal = DOFCalculator.farFocalPoint(len, distance, aperture, COC);
+                    double depthOfField = DOFCalculator.depthOfField(len, distance, aperture, COC);
                     System.out.println(" In focus: " + formatM(nearFocal/1000) +
                             "m to " + formatM(farFocal/1000) +
                             "m [DoF = " + formatM(depthOfField/1000) +

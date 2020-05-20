@@ -1,9 +1,9 @@
 package camera.model;
 
 public class Lens {
-    String make;
-    double maxAperture;
-    int focalLength;
+    private String make;
+    private double maxAperture;
+    private int focalLength;
 
     public Lens (String make, double maxAperture, int focalLength) {
         this.make = make;
