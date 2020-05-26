@@ -24,7 +24,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f8c6cee-e14d-4455-bd4f-06a778576087" name="Default Changelist" comment="Initial Commit">
+    <list default="true" id="3f8c6cee-e14d-4455-bd4f-06a778576087" name="Default Changelist" comment="Initial Commit" />
+    <list id="e3da5819-ec75-4041-a9bc-b62538862d81" name="Revert &quot;Tag Update 2&quot;" comment="Revert &quot;Tag Update 2&quot;&#10;&#10;This reverts commit 3e7ef0e4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/cmpt276a1/camera/ui/CameraTextUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cmpt276a1/camera/ui/CameraTextUI.class" afterDir="false" />
     </list>
@@ -382,7 +383,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="516" y="267" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589507759204" />
-    <state x="549" y="153" key="FileChooserDialogImpl" timestamp="1590531733509">
+    <state x="412" y="0" key="CommitChangelistDialog2" timestamp="1590532503880">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="412" y="0" key="CommitChangelistDialog2/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590532503880" />
+    <state x="549" y="153" key="FileChooserDialogImpl" timestamp="1589908074418">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590531733509" />
@@ -462,10 +467,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="569" y="200" key="git4idea.merge.GitMergeDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589504870611" />
-    <state x="475" y="200" key="git4idea.merge.GitPullDialog" timestamp="1589505918380">
+    <state x="475" y="200" key="git4idea.merge.GitPullDialog" timestamp="1590532532510">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="475" y="200" key="git4idea.merge.GitPullDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589505918380" />
+    <state x="475" y="200" key="git4idea.merge.GitPullDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590532532510" />
     <state x="547" y="313" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1589505116707">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
