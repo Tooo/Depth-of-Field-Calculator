@@ -9,6 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class DOFCalculatorTest {
     // Circle of Confusion
     private static final double COC = 0.029;
+
     // List of lens
     public Lens canonLen = new Lens("Canon", 1.8, 50);
     public Lens tamronLen = new Lens("Tamron", 2.8, 90);
