@@ -4,7 +4,6 @@ import camera.model.DOFCalculator;
 import camera.model.Lens;
 import camera.model.LensManager;
 
-import java.security.spec.RSAOtherPrimeInfo;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
@@ -34,6 +33,8 @@ public class CameraTextUI {
         boolean isDone = false;
         while (!isDone) {
             lensListPrint();
+
+            //Menu input
             int choice = in.nextInt();
             if (choice == -1) {
                 isDone = true;
@@ -41,17 +42,25 @@ public class CameraTextUI {
                 System.out.println("Error: Invalid lens index.\n");
             } else {
                 Lens len = manager.get(choice);
+
+                //Aperture input
                 System.out.print("Aperture [the F number]: ");
                 double aperture = in.nextDouble();
                 if (aperture < len.getMaxAperture()) {
                     System.out.println("ERROR: This aperture is not possible with this lens\n");
                 } else {
+
+                    //Distance input
                     System.out.print("Distance to subject [m]: ");
                     double distance = in.nextDouble()*1000;
+
+                    //Depth of Field Calculation
                     double hyperFocal = DOFCalculator.hyperFocalDist(len, aperture, COC);
                     double nearFocal = DOFCalculator.nearFocalPoint(len, distance, aperture, COC);
                     double farFocal = DOFCalculator.farFocalPoint(len, distance, aperture, COC);
                     double depthOfField = DOFCalculator.depthOfField(len, distance, aperture, COC);
+
+                    // Divide by 1000 to convert mm -> m
                     System.out.println(" In focus: " + formatM(nearFocal/1000) +
                             "m to " + formatM(farFocal/1000) +
                             "m [DoF = " + formatM(depthOfField/1000) +
@@ -75,6 +84,7 @@ public class CameraTextUI {
         System.out.print(": ");
     }
 
+    // Convert to 2 decimal
     private String formatM(double distanceInM) {
         DecimalFormat df = new DecimalFormat("0.00");
         return df.format(distanceInM);
