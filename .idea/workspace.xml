@@ -25,13 +25,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f8c6cee-e14d-4455-bd4f-06a778576087" name="Default Changelist" comment="Initial Commit">
+      <change beforePath="$PROJECT_DIR$/.idea/cmpt276a1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cmpt276a1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/cmpt276a1/camera/model/DOFCalculatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cmpt276a1/camera/model/DOFCalculatorTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/cmpt276a1/camera/model/Lens.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cmpt276a1/camera/model/Lens.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cmpt276a1/camera/model/DOFCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cmpt276a1/camera/model/DOFCalculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cmpt276a1/camera/model/DOFCalculatorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cmpt276a1/camera/ui/CameraTextUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cmpt276a1/camera/ui/CameraTextUI.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/camera/model/DOFCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/camera/model/DOFCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/camera/model/DOFCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/camera/model/DOFCalculatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/camera/model/Lens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/camera/model/Lens.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/camera/ui/CameraTextUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/camera/ui/CameraTextUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/camera/model/DOFCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/DOFCalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +78,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="inlay.hints.JAVA" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -102,15 +102,22 @@
     </configuration>
     <configuration name="DOFCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cmpt276a1" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="camera.model.*" />
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+        <pattern>
+          <option name="PATTERN" value="camera.model.DOFCalculator" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="camera.model" />
-      <option name="MAIN_CLASS_NAME" value="camera.model.DOFCalculatorTest" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.DOFCalculatorTest" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -119,12 +126,12 @@
       <module name="cmpt276a1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="camera.model.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="camera.model" />
-      <option name="MAIN_CLASS_NAME" value="camera.model.DOFCalculatorTest" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.DOFCalculatorTest" />
       <option name="METHOD_NAME" value="depthOfField" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -135,30 +142,28 @@
       <module name="cmpt276a1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="camera.model.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="camera.model" />
-      <option name="MAIN_CLASS_NAME" value="camera.model.DOFCalculatorTest" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.DOFCalculatorTest" />
       <option name="METHOD_NAME" value="farFocalPoint" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DOFCalculatorTest.nearFocalPoint" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="test in cmpt276a1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cmpt276a1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="camera.model.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="camera.model" />
-      <option name="MAIN_CLASS_NAME" value="camera.model.DOFCalculatorTest" />
-      <option name="METHOD_NAME" value="nearFocalPoint" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -167,8 +172,8 @@
       <list>
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.DOFCalculatorTest" />
+        <item itemvalue="JUnit.test in cmpt276a1" />
         <item itemvalue="JUnit.DOFCalculatorTest.depthOfField" />
-        <item itemvalue="JUnit.DOFCalculatorTest.nearFocalPoint" />
         <item itemvalue="JUnit.DOFCalculatorTest.farFocalPoint" />
       </list>
     </recent_temporary>
@@ -289,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589849315880</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Fixed DOF Calculator">
+      <created>1590001618585</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1590001618585</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -317,9 +329,14 @@
     <MESSAGE value="UI and fixes" />
     <MESSAGE value="Finalized Java Code!" />
     <MESSAGE value="Test DOF" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test DOF" />
+    <MESSAGE value="Fixed DOF Calculator" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="370" y="31" key="#DOFCalculatorTest" timestamp="1590451179181">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="370" y="31" key="#DOFCalculatorTest/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590451179181" />
     <state x="223" y="66" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589683482391">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -336,14 +353,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589683391556" />
-    <state x="500" y="188" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1589506539668">
+    <state x="500" y="188" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1590451172685">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="500" y="188" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589506539668" />
-    <state x="498" y="202" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1589508170668">
+    <state x="500" y="188" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590451172685" />
+    <state x="498" y="202" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1590451176623">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="498" y="202" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589508170668" />
+    <state x="498" y="202" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590451176623" />
     <state x="516" y="267" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1589507759204">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -352,22 +369,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589908074418" />
-    <state width="746" height="210" key="GridCell.Tab.0.bottom" timestamp="1589949162723">
+    <state width="746" height="210" key="GridCell.Tab.0.bottom" timestamp="1590451319389">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589949162723" />
-    <state width="746" height="210" key="GridCell.Tab.0.center" timestamp="1589949162723">
+    <state width="746" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590451319389" />
+    <state width="746" height="210" key="GridCell.Tab.0.center" timestamp="1590451319389">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="210" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589949162723" />
-    <state width="746" height="210" key="GridCell.Tab.0.left" timestamp="1589949162723">
+    <state width="746" height="210" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590451319389" />
+    <state width="746" height="210" key="GridCell.Tab.0.left" timestamp="1590451319388">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="210" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589949162723" />
-    <state width="746" height="210" key="GridCell.Tab.0.right" timestamp="1589949162723">
+    <state width="746" height="210" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590451319388" />
+    <state width="746" height="210" key="GridCell.Tab.0.right" timestamp="1590451319389">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="210" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589949162723" />
+    <state width="746" height="210" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590451319389" />
     <state width="746" height="261" key="GridCell.Tab.1.bottom" timestamp="1589507616983">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -392,18 +409,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="657" y="280" width="221" height="282" key="MultipleFileMergeDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589506109903" />
-    <state x="277" y="0" key="SettingsEditor" timestamp="1589510413256">
+    <state x="277" y="0" key="SettingsEditor" timestamp="1590437757527">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="0" key="SettingsEditor/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589510413256" />
+    <state x="277" y="0" key="SettingsEditor/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590437757527" />
     <state x="526" y="116" key="VCS.ChangeListViewerDialog" timestamp="1589505993496">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="526" y="116" key="VCS.ChangeListViewerDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589505993496" />
-    <state x="361" y="145" width="1093" height="534" key="Vcs.Push.Dialog.v2" timestamp="1589849319681">
+    <state x="361" y="145" width="1093" height="534" key="Vcs.Push.Dialog.v2" timestamp="1590001621697">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" width="1093" height="534" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589849319681" />
+    <state x="361" y="145" width="1093" height="534" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590001621697" />
     <state x="498" y="303" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1589843902927">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -412,10 +429,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="540" y="218" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589845076849" />
-    <state x="-1470" y="0" width="1100" height="566" key="dock-window-1" timestamp="1590001441881">
+    <state x="-1693" y="59" width="1091" height="512" key="dock-window-1" timestamp="1590444001047">
       <screen x="-1920" y="0" width="1536" height="824" />
     </state>
-    <state x="-1470" y="0" width="1100" height="566" key="dock-window-1/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590001441881" />
+    <state x="-1693" y="59" width="1091" height="512" key="dock-window-1/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590444001047" />
+    <state x="-1233" y="0" width="863" height="573" key="dock-window-2" timestamp="1590451643491">
+      <screen x="-1920" y="0" width="1536" height="824" />
+    </state>
+    <state x="-1233" y="0" width="863" height="573" key="dock-window-2/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590451643491" />
+    <state x="-1233" y="0" width="863" height="573" key="dock-window-3" timestamp="1590451643491">
+      <screen x="-1920" y="0" width="1536" height="824" />
+    </state>
+    <state x="-1233" y="0" width="863" height="573" key="dock-window-3/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590451643491" />
     <state x="569" y="200" key="git4idea.merge.GitMergeDialog" timestamp="1589504870611">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -432,6 +457,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="585" y="306" key="git4idea.ui.GitResetDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589506002523" />
+    <state x="585" y="256" key="git4idea.ui.GitTagDialog" timestamp="1590282199156">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="585" y="256" key="git4idea.ui.GitTagDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590282199156" />
     <state x="237" y="32" key="new project wizard" timestamp="1589908091681">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -441,21 +470,14 @@
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589688179655" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/camera/model/DOFCalculatorTest.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/cmpt276a1$DOFCalculatorTest.ic" NAME="DOFCalculatorTest Coverage Results" MODIFIED="1589909338516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>camera.model.*</FILTER>
+    <SUITE FILE_PATH="coverage/cmpt276a1$DOFCalculatorTest.ic" NAME="DOFCalculatorTest Coverage Results" MODIFIED="1590451184300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.*</FILTER>
+      <FILTER>camera.model.DOFCalculator</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/cmpt276a1$Main.ic" NAME="Main Coverage Results" MODIFIED="1589507657097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/cmpt276a1$test_in_cmpt276a1.ic" NAME="test in cmpt276a1 Coverage Results" MODIFIED="1590451144805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.*</FILTER>
+    </SUITE>
   </component>
 </project>

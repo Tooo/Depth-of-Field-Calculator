@@ -21,10 +21,8 @@ public class DOFCalculator {
     //(hyper focal * distance)/ (hyper focal + (distance - focal length)
     public static double farFocalPoint(Lens len, double distance, double aperture, double coc) {
         double hyperFocal = hyperFocalDist(len, aperture, coc);
-        double farFocal;
-        if (distance > hyperFocal ) {
-            farFocal = Double.POSITIVE_INFINITY;
-        } else {
+        double farFocal = Double.POSITIVE_INFINITY;
+        if (distance <= hyperFocal ) {
             double top = hyperFocal * distance;
             double bottom = (hyperFocal - (distance - len.getFocalLength()));
             farFocal = top / bottom;
