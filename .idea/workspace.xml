@@ -24,10 +24,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f8c6cee-e14d-4455-bd4f-06a778576087" name="Default Changelist" comment="Initial Commit" />
-    <list id="e3da5819-ec75-4041-a9bc-b62538862d81" name="Revert &quot;Tag Update 2&quot;" comment="Revert &quot;Tag Update 2&quot;&#10;&#10;This reverts commit 3e7ef0e4">
+    <list default="true" id="3f8c6cee-e14d-4455-bd4f-06a778576087" name="Default Changelist" comment="Initial Commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/cmpt276a1/camera/ui/CameraTextUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cmpt276a1/camera/ui/CameraTextUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/DOFCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/DOFCalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +74,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../OneDrive/Hw/Year 2/CMPT 276/cmpt276a1/cmpt276a1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../OneDrive/Hw/Year 2/CMPT 276" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -94,7 +93,7 @@
       <recent name="D:\Documents\IntelliJ\cmpt276a1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.DOFCalculatorTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="cmpt276a1" />
@@ -140,7 +139,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DOFCalculatorTest.farFocalPoint" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DOFCalculatorTest.hyperFocalDist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cmpt276a1" />
       <extension name="coverage">
         <pattern>
@@ -150,7 +149,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.DOFCalculatorTest" />
-      <option name="METHOD_NAME" value="farFocalPoint" />
+      <option name="METHOD_NAME" value="hyperFocalDist" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -172,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.DOFCalculatorTest" />
-        <item itemvalue="JUnit.test in cmpt276a1" />
         <item itemvalue="JUnit.DOFCalculatorTest.depthOfField" />
-        <item itemvalue="JUnit.DOFCalculatorTest.farFocalPoint" />
+        <item itemvalue="JUnit.DOFCalculatorTest.hyperFocalDist" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.test in cmpt276a1" />
       </list>
     </recent_temporary>
   </component>
@@ -317,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590530821866</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Tags?&#10;&#10;hopefully tags work now?">
+      <created>1590533093023</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1590533093023</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -348,7 +354,8 @@
     <MESSAGE value="Fixed DOF Calculator" />
     <MESSAGE value="Fixed Test and cleaned code&#10;&#10;Added 3 Test cases per each method, put test file in test folder, and modified DOF Calculator" />
     <MESSAGE value="Comment Added&#10;&#10;Adding a comments on to help understand" />
-    <option name="LAST_COMMIT_MESSAGE" value="Comment Added&#10;&#10;Adding a comments on to help understand" />
+    <MESSAGE value="Tags?&#10;&#10;hopefully tags work now?" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tags?&#10;&#10;hopefully tags work now?" />
   </component>
   <component name="WindowStateProjectService">
     <state x="370" y="31" key="#DOFCalculatorTest" timestamp="1590451179181">
@@ -383,30 +390,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="516" y="267" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589507759204" />
-    <state x="412" y="0" key="CommitChangelistDialog2" timestamp="1590532503880">
+    <state x="412" y="0" key="CommitChangelistDialog2" timestamp="1590533173182">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="412" y="0" key="CommitChangelistDialog2/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590532503880" />
-    <state x="549" y="153" key="FileChooserDialogImpl" timestamp="1589908074418">
+    <state x="412" y="0" key="CommitChangelistDialog2/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590533173182" />
+    <state x="549" y="153" key="FileChooserDialogImpl" timestamp="1590533394012">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590531733509" />
-    <state width="738" height="257" key="GridCell.Tab.0.bottom" timestamp="1590531795954">
+    <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590533394012" />
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1590552282988">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="738" height="257" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590531795954" />
-    <state width="738" height="257" key="GridCell.Tab.0.center" timestamp="1590531795954">
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590552282988" />
+    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1590552282988">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="738" height="257" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590531795954" />
-    <state width="738" height="257" key="GridCell.Tab.0.left" timestamp="1590531795954">
+    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590552282988" />
+    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1590552282988">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="738" height="257" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590531795954" />
-    <state width="738" height="257" key="GridCell.Tab.0.right" timestamp="1590531795954">
+    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590552282988" />
+    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1590552282988">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="738" height="257" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590531795954" />
+    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590552282988" />
     <state width="738" height="257" key="GridCell.Tab.1.bottom" timestamp="1590531795955">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -431,6 +438,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="657" y="280" width="221" height="282" key="MultipleFileMergeDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589506109903" />
+    <state x="570" y="132" key="RollbackChangesDialog" timestamp="1590533178201">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="570" y="132" key="RollbackChangesDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590533178201" />
     <state x="277" y="0" key="SettingsEditor" timestamp="1590531440930">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -439,10 +450,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="526" y="116" key="VCS.ChangeListViewerDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589505993496" />
-    <state x="361" y="145" width="1093" height="534" key="Vcs.Push.Dialog.v2" timestamp="1590531211515">
+    <state x="361" y="145" width="1093" height="534" key="Vcs.Push.Dialog.v2" timestamp="1590533325145">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" width="1093" height="534" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590531211515" />
+    <state x="361" y="145" width="1093" height="534" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590533325145" />
     <state x="498" y="303" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1589843902927">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -467,10 +478,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="569" y="200" key="git4idea.merge.GitMergeDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589504870611" />
-    <state x="475" y="200" key="git4idea.merge.GitPullDialog" timestamp="1590532532510">
+    <state x="475" y="200" key="git4idea.merge.GitPullDialog" timestamp="1590532884454">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="475" y="200" key="git4idea.merge.GitPullDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590532532510" />
+    <state x="475" y="200" key="git4idea.merge.GitPullDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590532884454" />
     <state x="547" y="313" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1589505116707">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -479,10 +490,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="585" y="306" key="git4idea.ui.GitResetDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589506002523" />
-    <state x="585" y="256" key="git4idea.ui.GitTagDialog" timestamp="1590531198813">
+    <state x="585" y="256" key="git4idea.ui.GitTagDialog" timestamp="1590533088733">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="585" y="256" key="git4idea.ui.GitTagDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590531198813" />
+    <state x="585" y="256" key="git4idea.ui.GitTagDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1590533088733" />
     <state x="237" y="32" key="new project wizard" timestamp="1589908091681">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
