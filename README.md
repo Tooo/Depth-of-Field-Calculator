@@ -3,19 +3,25 @@ Calculate the camera len's depth of field with this text UI calculator.
 Choose lens and enter valid aperture and distance to subject to start the calculator.
 It will output the focus distance range, depth of field distance, and hyperfocal point.
 
-
 ## Installation
-1. Clone the repository
-```bash
-git clone https://github.com/Toooo123/Depth-of-Field-Calculator.git
+1. Download, install and run [IntellJ Community Edition](https://www.jetbrains.com/idea/download/)
+2. Click "Get from VCS" or File->New->Project From Version Control
+3. Insert the following URL:
 ```
-2. Run with IntellJ Community Edition
+https://github.com/Toooo123/Depth-of-Field-Calculator.git
+```
+4. Run Main
 
 ## Calculator
 The Depth of Field Calculator will calculate these following things:
 - Focal Distance Range
 - Depth of Field Distance
 - Hyperfocal Point
+
+### Testing
+JUnit testing is used for this calculator.
+Each calculator function is tested to ensure that the four function results the correct values.
+The unit tests are in [DOFCalculatorTest.java](/src/test/java/test/DOFCalculatorTest.java).
 
 ## Lens
 These are sample lens for the calculator
@@ -66,8 +72,3 @@ Input: ```1.1```
   (-1 to exit)
 ```
 Input: ```-1```
-
-## Testing
-JUnit testing is used for this calculator.
-Each calculator function is tested to ensure that the four function results the correct values.
-The unit tests are in [DOFCalculatorTest.java](/src/test/java/test/DOFCalculatorTest.java).
