@@ -41,6 +41,9 @@ Modify the three arguments of the lens:
 2. Max Aperture (1.8)
 3. Focal length in mm (50)
 
+## Android App
+An Android app version is also avaliable [here](https://github.com/Toooo123/Depth-of-Field-Calculator-Android) 
+
 ## Sample Run
 With this run, the Canon lens is choosen with aperture of 1.8 and distance of 1.1.
 ```
