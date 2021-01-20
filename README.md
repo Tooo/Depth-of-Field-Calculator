@@ -1,4 +1,4 @@
-# Depth-of-Field-Calculator
+# Depth of Field Calculator
 Calculate the camera len's depth of field with this text UI calculator.
 Choose lens and enter valid aperture and distance to subject to start the calculator.
 It will output the focus distance range, depth of field distance, and hyperfocal point.
