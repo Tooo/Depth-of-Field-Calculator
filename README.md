@@ -8,7 +8,7 @@ It will output the focus distance range, depth of field distance, and hyperfocal
 2. Click "Get from VCS" or File->New->Project From Version Control
 3. Insert the following URL:
 ```
-https://github.com/Toooo123/Depth-of-Field-Calculator.git
+https://github.com/Tooo/Depth-of-Field-Calculator.git
 ```
 4. Run Main
 
